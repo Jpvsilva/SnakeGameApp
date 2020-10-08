@@ -5,12 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SnakeGameApp"
         mc:Ignorable="d"
-        Title="SnakeGame" SizeToContent="WidthAndHeight" ContentRendered="Window_ContentRendered" d:DesignWidth="901" HorizontalAlignment="Center" VerticalAlignment="Center" Width="900" Height="450">
+        Title="SnakeGame" 
+        SizeToContent="WidthAndHeight" 
+        ContentRendered="Window_ContentRendered" 
+        d:DesignWidth="901" 
+        HorizontalAlignment="Center" 
+        VerticalAlignment="Center" 
+        Width="900" 
+        Height="450" 
+        KeyUp="Window_KeyUp">
     <Grid>
         <Canvas Name="Board" Height="400" Margin="0,10,245,9" Width="400" ClipToBounds="True"/>
         <Button x:Name="button" Content="Button" HorizontalAlignment="Center" Margin="664,113,152,286" VerticalAlignment="Center" Width="76"/>
         <Button x:Name="button1" Content="Button" Margin="664,238,153,161" Width="75"/>
-        <Label x:Name="label" Content="Score&#xD;&#xA;" Margin="594,48,208,344" Width="89" Height="27"/>
+        <Label x:Name="scoreLabel" Content="Score&#xD;&#xA;" Margin="594,48,82,344" Height="27"/>
 
     </Grid>
 </Window>
